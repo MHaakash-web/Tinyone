@@ -1,0 +1,599 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #fcdb00 center top no-repeat;
+}
+
+header .bg-light {
+  background-color: transparent !important;
+  padding: 15px;
+}
+
+header {
+  background-color: #fcdb00;
+}
+
+header .navbar {
+  padding: 1rem 0;
+}
+
+header .navbar-nav .nav-item {
+  margin-left: 10px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* banner section css starts here */
+
+.banner-section {
+  width: 100%;
+  padding: 30px 0px 50px;
+}
+
+.banner-section .text-left {
+  margin: auto;
+}
+
+.banner-section .text-left h3 {
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-section .text-left h6 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.banner-section .text-left p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-right: 100px;
+  opacity: 0.8;
+}
+
+.banner-section .icons a {
+  font-size: 36px;
+  color: black;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.banner-section .text-center {
+  margin: auto;
+}
+
+/* banner section css ends here */
+
+/* features-section css starts here */
+.features-section {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #fff;
+}
+
+.features-section .row {
+  padding: 25px 0px;
+}
+
+.features-section h3 {
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0px 80px;
+}
+
+.features-section h6 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 0px 80px;
+}
+
+.features-section .content .fa {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.features-section .content p {
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-right: 10px;
+  opacity: 0.8;
+}
+
+.features-section .content .col-md-4 {
+  padding: 10px 50px;
+}
+
+/* features-section css ends here */
+
+/* bottom upper-section css ends here */
+.bottom-section {
+  width: 100%;
+  padding: 100px 0px 20px;
+  background-color: #000;
+  color: white;
+}
+
+.bottom-section .upper {
+  padding: 10px 200px;
+  text-align: center;
+}
+
+.bottom-section .upper h3 {
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0px 80px;
+  color: #fcdb00;
+  text-align: center;
+}
+
+.bottom-section .upper p {
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-right: 10px;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+
+.bottom-section .upper .btn {
+  background-color: #fcdb00;
+  padding: 5px 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bottom-section .upper .form-control {
+  padding: 20px 10px;
+  margin-right: 20px;
+}
+
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group
+  > .input-group-prepend:first-child
+  > .input-group-text:not(:first-child),
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text {
+  border-radius: 5px;
+}
+
+.bottom-section .upper .icons {
+  margin: 50px auto 100px;
+}
+
+.bottom-section .upper .icons .fa {
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 700;
+  background-color: #fcdb00;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  margin: 0px 10px;
+  text-align: center;
+  color: black;
+}
+
+.bottom-section .upper .icons .fb:hover {
+  background-color: #fff;
+  color: #1773ea;
+}
+
+.bottom-section .upper .icons .tt:hover {
+  background-color: #fff;
+  color: #1c9cea;
+}
+
+.bottom-section .upper .icons .gp:hover {
+  background-color: #fff;
+  color: #d54936;
+}
+
+.bottom-section .upper .icons .pn:hover {
+  background-color: #fff;
+  color: #df0019;
+}
+
+/* bottom upper-section css ends here */
+
+/* bottom footer-section css starts here */
+
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer .address {
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.footer li a:hover {
+  text-decoration: none;
+}
+
+/* bottom footer-section css ends here */
+
+/*  credits section starts here */
+.credits {
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/*  credits section ends here */
+
+@media (min-width: 768px) and (max-width: 990px) {
+  /* banner section css starts here */
+
+  .banner-section {
+    padding-bottom: 100px;
+  }
+
+  .banner-section .text-left h3 {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .banner-section .text-left h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .banner-section .text-left p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-right: 70px;
+    opacity: 0.8;
+  }
+
+  /* banner section css ends here */
+
+  /* features-section css starts here */
+
+  .features-section .content .col-md-4 {
+    padding: 5px;
+  }
+
+  .features-section h3 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 0px 80px;
+  }
+
+  .features-section h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 0px 25px;
+  }
+
+  .features-section .content .fa {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+
+  /* features-section css ends here */
+
+  /* bottom upper-section starts here */
+
+  .bottom-section .upper {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  /* bottom upper-section ends here */
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  header .navbar-nav .nav-item .nav-link {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  header .navbar {
+    padding: 1rem 0;
+  }
+
+  header .bg-light {
+    background-color: transparent !important;
+    padding: 10px 0px;
+  }
+
+  /* banner section css starts here */
+
+  .banner-section {
+    padding: 50px 150px;
+  }
+
+  .banner-section .text-left h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .banner-section .text-left h6,
+  h3,
+  .icons {
+    text-align: center;
+  }
+
+  .banner-section .text-left p {
+    padding: 0px;
+    text-align: justify;
+  }
+
+  .banner-section .text-left .icons {
+    margin-bottom: 30px;
+  }
+
+  .banner-section img {
+    width: 15rem;
+  }
+
+  /* banner section css ends here */
+
+  /* feature section css starts here */
+
+  .features-section {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .features-section h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+  }
+
+  .features-section .content .fa {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+  /* feature section css ends here */
+
+  /* bottom upper-section starts here */
+
+  .bottom-section .upper {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .bottom-section .upper h3 {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 0px 80px;
+    color: #fcdb00;
+    text-align: center;
+  }
+
+  .bottom-section .upper p {
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+    text-align: justify;
+    opacity: 0.7;
+    margin-bottom: 50px;
+  }
+
+  /* bottom upper-section ends here */
+
+  .footer .address {
+    color: #fff;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+  }
+  .footer li a {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header .bg-light {
+    background-color: transparent !important;
+    padding: 10px 0px;
+  }
+
+  header .navbar-nav .nav-item .nav-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  header .navbar {
+    padding: 1rem 0;
+  }
+
+  /* banner section css starts here */
+
+  .banner-section {
+    padding: 5 px;
+  }
+
+  .banner-section .text-left h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .banner-section .text-left h6,
+  h3,
+  .icons {
+    text-align: center;
+  }
+
+  .banner-section .text-left p {
+    padding: 0px;
+    text-align: justify;
+  }
+
+  .banner-section .text-left .icons {
+    margin-bottom: 30px;
+  }
+
+  .banner-section img {
+    width: 15rem;
+  }
+
+  /* banner section css ends here */
+
+  /* feature section css starts here */
+
+  .features-section {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0px 20px;
+  }
+
+  .features-section h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+    text-align: justify;
+  }
+
+  .features-section .content .fa {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+  /* feature section css ends here */
+
+  /* bottom upper-section starts here */
+
+  .bottom-section .upper {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .bottom-section .upper h3 {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: #fcdb00;
+    text-align: center;
+  }
+
+  .bottom-section .upper p {
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+    text-align: justify;
+    opacity: 0.7;
+    margin-bottom: 50px;
+  }
+
+  .bottom-section .upper .btn {
+    background-color: #fcdb00;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .bottom-section .upper .form-control {
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .bottom-section .upper .form-control {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  /* bottom upper-section ends here */
+
+  .footer .address {
+    color: #fff;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+  }
+  .footer li a {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+}
