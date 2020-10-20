@@ -75,6 +75,11 @@ header .navbar-nav .nav-item .nav-link {
   margin: auto;
 }
 
+.banner-section .icons a:hover{
+color: white;
+}
+
+
 /* banner section css ends here */
 
 /* features-section css starts here */
