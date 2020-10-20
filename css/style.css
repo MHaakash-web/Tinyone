@@ -5,6 +5,7 @@
 
 body {
   background: #fcdb00 center top no-repeat;
+  font-family: "Open Sans", sans-serif;
 }
 
 header .bg-light {
@@ -29,6 +30,11 @@ header .navbar-nav .nav-item .nav-link {
   font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+header .navbar-nav .nav-item .nav-link:hover,
+.nav-link:focus {
+  text-shadow: 0px 2px rgba(255, 255, 255, 0.623);
 }
 
 /* banner section css starts here */
@@ -75,11 +81,11 @@ header .navbar-nav .nav-item .nav-link {
   margin: auto;
 }
 
-.banner-section .icons fa:hover{
-color: white;
+.banner-section .icons .fa:hover,
+.fa:focus {
+  color: white;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.315);
 }
-
-
 /* banner section css ends here */
 
 /* features-section css starts here */
@@ -173,9 +179,16 @@ color: white;
   font-weight: 700;
 }
 
+.bottom-section .upper .btn:hover,
+.btn:focus {
+  color: black;
+  background-color: #fff;
+}
+
 .bottom-section .upper .form-control {
   padding: 20px 10px;
   margin-right: 20px;
+  border-radius: 5px;
 }
 
 .input-group > .input-group-append > .btn,
@@ -206,22 +219,26 @@ color: white;
   color: black;
 }
 
-.bottom-section .upper .icons .fb:hover {
+.bottom-section .upper .icons .fb:hover,
+.fb:focus {
   background-color: #fff;
   color: #1773ea;
 }
 
-.bottom-section .upper .icons .tt:hover {
+.bottom-section .upper .icons .tt:hover,
+.tt:focus {
   background-color: #fff;
   color: #1c9cea;
 }
 
-.bottom-section .upper .icons .gp:hover {
+.bottom-section .upper .icons .gp:hover,
+.gp:focus {
   background-color: #fff;
   color: #d54936;
 }
 
-.bottom-section .upper .icons .pn:hover {
+.bottom-section .upper .icons .pn:hover,
+.pn:focus {
   background-color: #fff;
   color: #df0019;
 }
@@ -253,8 +270,10 @@ color: white;
   text-transform: capitalize;
 }
 
-.footer li a:hover {
+.footer li a:hover,
+a:focus {
   text-decoration: none;
+  color: #fcdb00;
 }
 
 /* bottom footer-section css ends here */
