@@ -613,6 +613,15 @@ a:focus {
     line-height: 15px;
     font-weight: 400;
   }
+  
+  .footer li {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  
   .footer li a {
     color: #fff;
     font-size: 10px;
